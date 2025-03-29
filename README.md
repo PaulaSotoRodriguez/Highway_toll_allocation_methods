@@ -1,11 +1,19 @@
 # Highway_toll_allocation_methods
 Toll allocation methods for the highway toll allocation problem
 
-This repository includes the code for SES-method from [2] as well as the SPS and the SCS methods from [1].
+This repository includes the code for the methods presented in [1], as well as the methods introduced in [1]. 
+Specifically, it includes the following methods:
+
+* Segments Equal Sharing (SES)
+* Exits Equal Sharing (ExES)
+* Entrances Equal Sharing (EnES)
+* Segments Proportional Sharing (SPS)
+* Segments Compensated Sharing (SCS)
 
 # Contents
 
 Each data file contained in this repository is explained below:
+
 
 
 
