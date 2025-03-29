@@ -1,24 +1,24 @@
-# Highway_toll_allocation_methods
-Toll allocation methods for the highway toll allocation problem
+# Highway toll allocation methods
 
-This repository includes the code for the methods presented in [1], as well as the methods introduced in [1]. 
-Specifically, it includes the following methods:
-
-* Segments Equal Sharing (SES)
-* Exits Equal Sharing (ExES)
-* Entrances Equal Sharing (EnES)
-* Segments Proportional Sharing (SPS)
-* Segments Compensated Sharing (SCS)
+This repository provides the code for several toll allocation methods for the highway toll allocation problem presented in [2].
+It also includes the datasets used in the practical applications in [1] and [2]. 
 
 # Contents
 
-Each data file contained in this repository is explained below:
+Each data file contained in this repository is explained below.
+
+- [SES_method.R](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/R/SES_method.R): Segments Equal Sharing (SES) method from [2].
+- [ExES_method.R](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/R/ExES_method.R): Exits Equal Sharing (ExES) method from [2].
+- [EnES_method.R](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/R/EnES_method.R): Entrances Equal Sharing (EnES) method from [2]. 
+- [SPS_method.R](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/R/SPS_method.R): Segments Proportional Sharing (SPS) method from [1].
+- [SCS_method.R](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/R/SCS_method.R): Segments Compensated Sharing (SCS) method from [1].
+
+- [rates_AP68_2007.csv](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/Datasets/rates_AP68_2007): Official rates in euros for light vehicles applied in the Spanish AP68 highway during 2007.
+- [number_vehicles_AP68_2007.csv](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/Datasets/number_vehicles_AP68_2007): Number of vehicles using each segment of AP68 highway in the year 2007.
+- [toll_matrix_AP68_highway.csv](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/Datasets/toll_matrix_AP68): Toll matrix for the segments of the AP68 highway, calculated as $t_{ij} = Rate_{ij} \times Numberofvehicle_{ij}$.
 
 
-
-
-
-## REFERENCES
+## References
 
 ### Main references
 
