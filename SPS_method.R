@@ -1,4 +1,4 @@
-SPS.method <- function(Toll){
+SPS_method <- function(Toll){
   n <- nrow(Toll)
   
   weight.den <- sum(sapply(1:n, function(j) {
