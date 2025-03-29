@@ -1,4 +1,4 @@
-SCS.method <- function(Toll){
+SCS_method <- function(Toll){
   n <- nrow(Toll)
   
   SCS.aux <- function(h){
