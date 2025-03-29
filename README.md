@@ -15,7 +15,7 @@ Each data file contained in this repository is explained below.
 
 - [rates_AP68_2007.csv](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/Datasets/rates_AP68_2007): Official rates in euros for light vehicles applied in the Spanish AP68 highway during 2007.
 - [number_vehicles_AP68_2007.csv](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/Datasets/number_vehicles_AP68_2007): Number of vehicles using each segment of AP68 highway in the year 2007.
-- [toll_matrix_AP68_highway.csv](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/Datasets/toll_matrix_AP68): Toll matrix for the segments of the AP68 highway, calculated as $t_{ij} = Rate_{ij} \times Numberofvehicle_{ij}$.
+- [toll_matrix_AP68_highway.csv](https://github.com/PaulaSotoRodriguez/Highway_toll_allocation_methods/blob/d3ea318c84df234dfcda2e917fd4dc4642b1f29b/Datasets/toll_matrix_AP68): Toll matrix for the segments of the AP68 highway, calculated as $t_{ij} = Rate_{ij} \times Numberofvehicles_{ij}$.
 
 
 ## References
