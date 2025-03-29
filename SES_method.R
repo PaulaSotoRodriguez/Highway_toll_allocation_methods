@@ -1,4 +1,4 @@
-SES.method <- function(Toll){
+SES_method <- function(Toll){
   # stopifnot(class(Toll)=="matrix")
   n <- nrow(Toll)
   SESaux <- function(h){
